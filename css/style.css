@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+heder{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
