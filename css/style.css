@@ -23,17 +23,28 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.enlace-github {
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.enlace-github:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
 
 .header {
     background-color: var(--color-principal);
     color: var(--color-blanco);
-    padding: 16px 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex; 
     justify-content: space-between;
     align-items: center; 
     position: sticky;
-    top: 0;
-    z-index: 1000;
+    margin-top: 0;
 }
 
 .logo {
@@ -43,7 +54,10 @@ a {
 
 .nav {
     display: flex;
-    margin: 0 auto;;
+    margin-top: -20px;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0 1px 4px rgb(0, 0, 0);
 }
 
 .nav a:hover {
