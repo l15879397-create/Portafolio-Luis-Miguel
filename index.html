@@ -27,12 +27,12 @@
     <section id="sobre-mi" class="sobre-mi"> 
         <div class="columna"> 
             <h2>Sobre mí</h2> 
-            <p>Soy un aprendiz de Análisis y Desarrollo de Software.Me gusta aprende hallar soluciones a problamas, social,comunicativo,</p> 
+            <p>Soy un aprendiz de Análisis y Desarrollo de Software.Tengo 17 años,Me gusta hacer deporte y leer,Buscar soluciones a diferentes problemas.</p> 
         </div> 
         <div class="columna"> 
             <h2>Datos</h2> 
             <ul> 
-                <li>ciudad:Pitalito</li> <!---(¿pitalito es ciudad?)--->
+                <li>Ciudad: Pitalito</li> <!---(¿pitalito es ciudad?)--->
                 <li>Formación: ADSO</li> 
             </ul> 
         </div> 
@@ -71,9 +71,16 @@
 <p>© 2026 Luis Miguel Melo</p> 
 <div class="redes"> 
 <a href="https://github.com/l15879397-create">GitHub</a> 
-<a href="https://wa.me/3219479976" target="_blank">WhatsApp</a>
+<a href="https://www.linkedin.com/in/luis-undefined-bb0577419/" target="_blank">Linkedin</a>
 </div> 
 </footer> 
-<script src="js/app.js"></script> 
+<script>
+    const menuBtn = document.getElementById('menuBtn');
+    const menu = document.getElementById('menu');
+
+    menuBtn.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+</script> 
 </body> 
 </html> 

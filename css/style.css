@@ -39,7 +39,7 @@ a {
     background-color: var(--color-principal);
     color: var(--color-blanco);
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     display: flex; 
     justify-content: space-between;
     align-items: center; 
@@ -77,14 +77,24 @@ a {
 .hero {
     background: var(--color-principal);
     color: var(--color-blanco);
-    min-height: 60vh; 
+    min-height: 50vh; 
     padding: 20px;
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between; 
+    display: auto; 
     align-items: left; 
     text-align: center;
-    gap: 1.5rem; 
+    gap: 25px; 
+}
+
+.hero h1 {
+    font-size: 50px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.9; /* Le da un toque sutil y elegante */
 }
 
 .avatar {
@@ -92,6 +102,8 @@ a {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
+    margin-left: 40px;
+    margin-top: 80px;
 }
 
 .sobre-mi {
